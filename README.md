@@ -9,20 +9,20 @@ Clonal memory is defined as the phenomenon responsible for the inheritance of ce
 
 The repository is organized into three main folders:
 
-### 1. `memory`
-This folder contains the Python code used to simulate and analyse the system in the **presence clonal memory**:
-- `simulations_with_memory.ipynb` – Jupyter notebook.
-- `simulations_with_memory.html` – HTML version of the notebook.
-
-### 2. `no memory`
-This folder contains the Python code used to simulate and analyse the system in the **absence of clonal memory**:
-- `simulations_without_memory.ipynb` – Jupyter notebook.
-- `simulations_without_memory.html` – HTML version of the notebook.
-
-### 3. `division times distribution`
-This folder contains experimental data of cell division times, together with their analysis to obtain lognormal distribution parameters for the simulations:
+### 1. `division times distribution`
+This folder contains experimental data of cell division times, together with their analysis to obtain the lognormal distribution parameters used in the simulations:
 - `bone_marrow_division_times.csv` – Experimental division times measured in bone marrow.
 - `cord_blood_division_times.csv` – Experimental division times measured in cord blood.  
   *(Data from Donada et al., 2025)*  
 - `lognormal_fit.ipynb` – Jupyter notebook with experimental data fits.
 - `lognormal_fit.html` – HTML version of the notebook.
+
+### 2. `memory`
+This folder contains the Python code used to simulate and analyse the system in the **presence clonal memory**:
+- `simulations_with_memory.ipynb` – Jupyter notebook.
+- `simulations_with_memory.html` – HTML version of the notebook.
+
+### 3. `no memory`
+This folder contains the Python code used to simulate and analyse the system in the **absence of clonal memory**:
+- `simulations_without_memory.ipynb` – Jupyter notebook.
+- `simulations_without_memory.html` – HTML version of the notebook.
