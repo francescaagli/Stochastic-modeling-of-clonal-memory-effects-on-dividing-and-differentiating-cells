@@ -20,7 +20,7 @@ This folder contains the Python code used to simulate and analyse the system in 
 - `simulations_without_memory.html` – HTML version of the notebook.
 
 ### 3. `division times distribution`
-This folder contains experimental data of cell division times together with their analysis to obtain lognormal parameters for the simulations:
+This folder contains experimental data of cell division times, together with their analysis to obtain lognormal distribution parameters for the simulations:
 - `bone_marrow_division_times.csv` – Experimental division times measured in bone marrow.
 - `cord_blood_division_times.csv` – Experimental division times measured in cord blood.  
   *(Data from Donada et al., 2025)*  
