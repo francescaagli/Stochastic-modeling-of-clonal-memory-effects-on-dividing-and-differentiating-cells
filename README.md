@@ -10,12 +10,12 @@ Clonal memory is defined as the phenomenon responsible for the inheritance of ce
 The repository is organized into three main folders:
 
 ### 1. `memory`
-This folder contains the code used to simulate and analyse the system in the **presence clonal memory**:
+This folder contains the Python code used to simulate and analyse the system in the **presence clonal memory**:
 - `simulations_with_memory.ipynb` – Jupyter notebook.
 - `simulations_with_memory.html` – HTML version of the notebook.
 
 ### 2. `no memory`
-This folder contains the code used to simulate and analyse the system in the **absence of clonal memory**:
+This folder contains the Python code used to simulate and analyse the system in the **absence of clonal memory**:
 - `simulations_without_memory.ipynb` – Jupyter notebook.
 - `simulations_without_memory.html` – HTML version of the notebook.
 
