@@ -1,0 +1,28 @@
+# Stochastic Modeling of Clonal Memory Effects
+
+This repository contains the code used for the project **"Stochastic Modeling of Clonal Memory Effects on Dividing and Differentiating Cells"**.
+
+## Project description and findings
+Clonal memory is defined as the phenomenon responsible for the inheritance of cellular properties across multiple cell generations and it has been observed in several biological systems. In particular, human hematopoietic stem and progenitor cells sharing a common ancestor manifested this memory by dividing synchronously over multiple divisions. This finding raised questions about how such memory influenced population dynamics and clonal families composition. Here, we developed a stochastic simulation of dividing and differentiating cells under two different conditions: with and without clonal memory. Our results showed that clonal memory did not change average population growth or differentiation, but it increased variability in the population size and heterogeneity between clonal families. These effects became more evident with larger clonal expansion and could therefore be generalized to real-scale systems.
+
+## Repository Structure
+
+The repository is organized into three main folders:
+
+### 1. `memory`
+This folder contains the code used to simulate and analyse the system in the **presence clonal memory**:
+- `simulations_with_memory.ipynb` – Jupyter notebook.
+- `simulations_with_memory.html` – HTML version of the notebook.
+
+### 2. `no memory`
+This folder contains the code used to simulate and analyse the system in the **absence of clonal memory**:
+- `simulations_without_memory.ipynb` – Jupyter notebook.
+- `simulations_without_memory.html` – HTML version of the notebook.
+
+### 3. `division times distribution`
+This folder contains experimental data of cell division times together with their analysis to obtain lognormal parameters for the simulations:
+- `bone_marrow_division_times.csv` – Experimental division times measured in bone marrow.
+- `cord_blood_division_times.csv` – Experimental division times measured in cord blood.  
+  *(Data from Donada et al., 2025)*  
+- `lognormal_fit.ipynb` – Jupyter notebook with experimental data fits.
+- `lognormal_fit.html` – HTML version of the notebook.
