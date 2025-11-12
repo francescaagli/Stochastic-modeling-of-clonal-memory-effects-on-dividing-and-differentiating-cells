@@ -1,9 +1,9 @@
-# Stochastic Modeling of Clonal Memory Effects on Dividing and Differentiating Cells
+# Stochastic modeling of clonal memory effects on dividing and differentiating cells
 
 ## Project description and findings
 Clonal memory is defined as the phenomenon responsible for the inheritance of cellular properties across multiple cell generations and it has been observed in several biological systems. In particular, human hematopoietic stem and progenitor cells sharing a common ancestor showed this memory by dividing synchronously over multiple divisions. This finding raised questions about how such memory influenced population dynamics and clonal families composition. Here, we developed a stochastic simulation of dividing and differentiating cells under two different conditions: with and without clonal memory. Our results revealed that clonal memory did not affect the differentiation process or average population growth, but it increased variability in the population size and heterogeneity between clonal family sizes. These effects became more evident for larger populations and could therefore be generalized to real-scale systems.
 
-## Repository Structure
+## Repository structure
 
 The repository is organized into three main folders:
 
