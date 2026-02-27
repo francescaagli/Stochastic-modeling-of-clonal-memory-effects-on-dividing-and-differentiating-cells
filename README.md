@@ -9,8 +9,8 @@ The repository is organized into three main folders:
 
 ### 1. division times distribution
 This folder contains experimental data of cell division from *Donada et al. (2025)*, together with their analysis to obtain the lognormal distribution parameters used in the simulations:
-- `bone_marrow_division_times.xlsx` – Experimental division times measured in bone marrow.
-- `cord_blood_division_times.xlsx` – Experimental division times measured in cord blood.
+- `Merged_bone_marrow.xlsx` – Experimental division times measured in bone marrow.
+- `Merged_cord_blood.xlsx` – Experimental division times measured in cord blood.
 - `lognormal_fit.ipynb` – Jupyter notebook with experimental data fits.
 - `lognormal_fit.html` – HTML version of the notebook.
 
