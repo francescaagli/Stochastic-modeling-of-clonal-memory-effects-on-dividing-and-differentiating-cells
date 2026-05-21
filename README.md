@@ -8,7 +8,7 @@ Clonal memory is defined as the phenomenon responsible for the inheritance of ce
 The repository is organized into three main folders:
 
 ### 1. division times distribution
-This folder contains experimental data of cell division from *Donada et al. (2025)*, together with their analysis to obtain the lognormal distribution parameters used in the simulations:
+This folder contains experimental data of cell division from *Donada et al. (2025)*, together with their analysis to obtain the log-normal distribution parameters used in the simulations:
 - `Merged_bone_marrow.xlsx` – Experimental division times measured in bone marrow.
 - `Merged_cord_blood.xlsx` – Experimental division times measured in cord blood.
 - `lognormal_fit.ipynb` – Jupyter notebook with experimental data fits.
